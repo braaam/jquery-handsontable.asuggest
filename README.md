@@ -9,7 +9,7 @@ Include in ``<head></head>``:
 <script src="jquery.a-tools.js"></script>
 <script src="jquery.asuggest.js"></script>
 <script src="jquery.handsontable.full.js"></script>
-<script src="handsontable.asuggest.js"></script>
+<script src="jquery.handsontable.asuggest.js"></script>
 <link rel="stylesheet" href="jquery.handsontable.full.css" media="screen">
 ```
 
