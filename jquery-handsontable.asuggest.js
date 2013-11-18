@@ -2,6 +2,9 @@
   var AsuggestEditor = Handsontable.editors.HandsontableEditor.prototype.extend();
 
   AsuggestEditor.prototype.beginEditing = function () {
+    if (this.state != Handsontable.EditorState.VIRGIN) {
+      return;
+    }    
     Handsontable.editors.HandsontableEditor.prototype.beginEditing.apply(this, arguments);
     var that = this;
 
