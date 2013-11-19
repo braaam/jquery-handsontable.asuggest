@@ -3,6 +3,10 @@ jquery-handsontable.asuggest
 
 [Asuggest](http://imankulov.github.io/asuggest/) plugin for [Handsontable](http://handsontable.com/).
 
+**Note: Jquery Asuggest needs a [fix](https://github.com/braaam/asuggest/commit/0dc179b37a) to work correctly with Handsontable.**
+
+
+
 Include in ``<head></head>``:
 
 ```html
